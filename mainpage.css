@@ -1,0 +1,149 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.col-sm-8 a {
+  float: left;
+  display: block;
+}
+
+.col-sm-8 h2 {
+  text-align: left;
+  font-family: Helvetica Narrow; 
+  font-weight: 700;
+  color: white;
+  font-size: 64px
+}
+
+.col-sm-4 a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 40px 20px 5px;
+  font-size: 32px;
+}
+
+.col-sm-4 a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.jumbotron{
+  display: flex;
+  align-items: center;
+  display: block;
+  margin-top: 120px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.home {
+  color: white;
+}
+
+.home h1 {
+  font-size: 77px;
+  font-weight: 700;
+  font-family: Bookman;
+  margin-top: 2000px 0;
+  text-align: center;
+}
+
+.home h3 {
+  font-size: 90px;
+  font-family: Florence;
+  font-weight: 400;
+  margin-top: 400px 0;
+  text-align: center;
+}
+
+.home h4 {
+  font-size: 40px; 
+  padding: 15px 0;
+  text-align: center;
+}
+
+.about{
+  margin: 100px 75px;
+  color: white;
+}
+
+.about h1{
+  font-size: 77px;
+  font-family: Brushstroke;
+}
+
+.about h6{
+  font-size: 40px;
+  font-family: Florence;
+  color: white;
+}
+
+.about p{
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+}
+
+.schedule{
+  margin: 100px 75px;
+  color: white;
+}
+
+.schedule table, th, td {
+  border: 2px solid white;
+  background-color: #2E2828
+}
+
+.schedule h1{
+  font-size: 77px;
+  font-family: Brushstroke; 
+}
+
+.schedule h3{
+  font-size: 42px;
+  font-family: courier;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.schedule th{
+  font-size: 47px;
+  font-family: Florence;
+  text-align: center;
+}
+
+.schedule td{
+  font-size: 32px;
+  font-family: Arial;
+  text-align: center;
+  padding: 15px 5px;
+}
+
+.schedule h4{
+  font-size: 27pt;
+  font-family: Brushstroke;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer p{
+  text-align: right;
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 10px
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Welcome: Umbrella Radar</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href = "main.css">
+	<script type="text/javascript" src = 'myscript.js'></script>
+</head>
+<body>
+<div id="splashscreen">
+	<div class="row">
+		<div class="col-sm-5">
+			<h3><em>Welcome to</em></h3>
+			<h2>Umbrella Radar</h2>
+    		<div class="dropdown">
+    		<p>Please select your location so that we can personalize your weather information!</p>
+			<button onclick="dropdown()" class="dropbtn">Location</button>
+  				<div id="myDropdown" class="dropdown-content">
+    				<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    				<a href="./mainpage.html">Berkeley, CA</a> 
+    				<a href="./mainpage.html">San Francisco, CA</a>
+    				<a href="./mainpage.html">Los Angeles, CA</a>
+    				<a href="./mainpage.html">New York, NY</a>
+  				</div>
+  			</div>
+  		</div>	
+  		<div class="col-sm-7">
+    		<img src="https://raw.githubusercontent.com/katshuadventures/UmbrellaProject/master/Umbrella%20Logo.png" alt="Logo" width="700" height="560"/>
+    	</div>
+    </div>
+</div>
+</body>
+</html>
